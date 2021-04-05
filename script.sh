@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-rm files.txt
+rm -f files.txt
 
 for i in *.mp3; do
     # Will print */ if no directories are available
